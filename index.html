@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sustain-a-tree webpage</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!--fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--Title-->
+        <div id="sustain-a-tree title" class="container">
+            <h2 class="line"> Sustain-a-tree </h2> 
+            <img class="line" src="Tree.png">
+        </div>
+
+        <!--reusable waterbottle progress bar-->
+        <div class="container task">
+            <div>
+                <h3 class="line">using a reusable water bottle</h3>
+                <img class="line" src="WaterBottle.png">
+            </div>
+            <div>
+                <!--REACT testing area-->
+                <img class="line" id="plus-button-1" src="PlusButton.png">
+
+                <img class="line" id="minus-button-1" src="MinusButton.png">
+                <img class="line" id="reset-1" src="ResetButton.png">
+                <!--Progress Bar-->
+                <div class="parent line">
+                    <img class="relative" src="ProgressBarFrame.png">
+                    <img class="absolute fill" id="fill-1" src="ProgressBarFill.png">
+                    <img class="absolute" id="outer" src="ProgressBarOuter.png">
+                </div>
+                <h3 class="line" id="count-1">0</h3>
+            </div>
+        </div>
+
+        <!--reusable bag progress bar-->
+        <div class="container task">
+            <div>
+                <h3 class="line">using reusable grocery bags</h3>
+                <img class="line" src="ReusableBag.png">
+            </div>
+            <div>
+                <img class="line" id="plus-button-2" src="PlusButton.png">
+                <img class="line" id="minus-button-2" src="MinusButton.png">
+                <img class="line" id="reset-2" src="ResetButton.png">
+                <!--Progress Bar-->
+                <div class="parent line">
+                    <img class="relative" src="ProgressBarFrame.png">
+                    <img class="absolute fill" id="fill-2" src="ProgressBarFill.png">
+                    <img class="absolute" id="outer" src="ProgressBarOuter.png">
+                </div>
+                <h3 class="line">0</h3>
+            </div>
+        </div>
+
+        <!--refusal progress bar-->
+        <div class="container task">
+            <div>
+                <h3 class="line">refusing something you don't need</h3>
+                <img class="line" src="RefuseSign.png">
+            </div>
+            <div>
+                <img class="line" id="plus-button-3" src="PlusButton.png">
+                <img class="line" id="minus-button-3" src="MinusButton.png">
+                <img class="line" id="reset-3" src="ResetButton.png">
+                <!--Progress Bar-->
+                <div class="parent line">
+                    <img class="relative" src="ProgressBarFrame.png">
+                    <img class="absolute fill" id="fill-3" src="ProgressBarFill.png">
+                    <img class="absolute" id="outer" src="ProgressBarOuter.png">
+                </div>
+                <h3 class="line">0</h3>
+            </div>
+        </div>
+
+        <!--compost progress bar-->
+        <div class="container task">
+            <div>
+                <h3 class="line">composting</h3>
+                <img class="line" src="Leaf.png">
+            </div>
+            <div>
+                <img class="line" id="plus-button-4" src="PlusButton.png">
+                <img class="line" id="minus-button-4" src="MinusButton.png">
+                <img class="line" id="reset-4" src="ResetButton.png">
+                <!--Progress Bar-->
+                <div class="parent line">
+                    <img class="relative" src="ProgressBarFrame.png">
+                    <img class="absolute fill" id="fill-4" src="ProgressBarFill.png">
+                    <img class="absolute" id="outer" src="ProgressBarOuter.png">
+                </div>
+                <h3 class="line">0</h3>
+            </div>
+        </div>
+
+        <!-- Load React. -->
+        <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+        <!-- Load our React component. -->
+        <script src="app.js"></script>
+
+    </body>
+</html>

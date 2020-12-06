@@ -1,0 +1,32 @@
+div .line{
+    display: inline;
+}
+
+.container{
+    margin-top: 3%;
+}
+
+.parent{
+    position: relative;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.fill{
+    top: -6px;
+    left: 5px;
+    width: 0%; /*this needs to be changed for each progress bar*/
+    height: 30px;    
+}
+
+#outer{
+    top: -12px;
+    left: 0px;
+}
+
